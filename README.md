@@ -8,7 +8,7 @@ Kangle web server 3.5.X
 
 kangle web server 更新日志
 -------
-2020-09-17 kangle 3.5.26.001  
+2026-09-17 kangle 3.5.26.001  
 修复HTTP2漏洞若干(CVE-2026-49975...)  
 从主分支移植ZSTD HTTP支持  
 为kwaf新增验证码支持
