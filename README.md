@@ -4,7 +4,11 @@ Kangle web server 3.5.X
 
 安装教程
 -------
-下载解压kangle.zip覆盖即可 运行方法和主分支无差异
+下载解压kangle.zip覆盖即可 运行方法和主分支无差异  
+Debian / Ubuntu:  
+apt update && apt install -y zlib1g libsqlite3-0 libpcre3 libssl1.1 libzstd1 libbrotli1 libstdc++6 libgcc-s1 libc6  
+CentOS / Rocky / RHEL:  
+dnf install -y zlib sqlite pcre openssl-libs libstdc++ libgcc glibc libzstd brotli
 
 kangle web server 更新日志
 -------
