@@ -8,11 +8,11 @@ Kangle web server 3.5.X
 Debian / Ubuntu:  
 apt update && apt install -y zlib1g libsqlite3-0 libpcre3 libssl1.1 libzstd1 libbrotli1 libstdc++6 libgcc-s1 libc6  
 CentOS / Rocky / RHEL:  
-dnf install -y zlib sqlite pcre openssl-libs libstdc++ libgcc glibc libzstd brotli
+yum install -y zlib sqlite pcre openssl-libs libstdc++ libgcc glibc libzstd brotli
 
-kangle web server 更新日志
+
+功能说明
 -------
-2026-09-17 kangle 3.5.26.001  
-修复HTTP2漏洞若干(CVE-2026-49975...)  
-从主分支移植ZSTD HTTP支持  
-为kwaf新增验证码支持
+由开源free3.5.21.x版本+3.6版本修补而来  
+保留了主机模板(支持easypanel)支持,并修复和新增功能  
+目前版本已经包含了ent版本全部功能  
